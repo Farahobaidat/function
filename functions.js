@@ -53,7 +53,8 @@ function stringContains(string1,string2){
 
 function capitalizeWords(string){
     let toarray=string.split(" ");
-   let nw= toarray.map((word) =>{return word[0].toUpperCase()+word.substring(1);});
+   let nw= toarray.map((word) =>{return word[0].toUpperCase()+word.substring(1);})
+   join(" ");
      return nw;
 }
 // let names="farah hani";
