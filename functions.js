@@ -54,7 +54,7 @@ function stringContains(string1,string2){
 function capitalizeWords(string){
     let toarray=string.split(" ");
    let nw= toarray.map((word) =>{return word[0].toUpperCase()+word.substring(1);});
-    console.log(nw);
+    alert(nw);
 }
 // let names="farah hani";
 // console.log(capitalizeWords(names));
@@ -86,7 +86,7 @@ function getSequence(number){
     for(number;number<0;number++){
     let newnumber1=number+1;
     sequence.unshift(newnumber1);}}
-    console.log(sequence);
+    alert(sequence);
 }
 // getSequence(-5);
 function getSlug(string){
@@ -94,15 +94,6 @@ function getSlug(string){
     // let ne=lowerstring.toLowerCase();
    let letter= toarray.map((lowerstrin) =>{ return lowerstrin.toLowerCase()});
    let tostring=letter.join("-");
-    console.log(tostring);
+    alert(tostring);
 }
 // getSlug("FMKDF LEJFLK");
-foo();
-
-function foo() {
-
-		var message = 'hello';
-	
-}
-
-alert(message);
